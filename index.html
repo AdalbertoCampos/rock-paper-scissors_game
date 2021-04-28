@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ícone.png">
+    <title>Rock Paper Scissors</title>
+    <script src="jokenpo.js"></script>
+    <style>
+        body {
+            background-color: seagreen;
+            font-family: cursive;
+        }
+        img {
+            border-radius: 60px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #img1 {
+            float: left;
+        }
+        #img2 {
+            float: right;
+        }
+        div {
+            background-color: rgb(229, 192, 198);
+            color: seagreen;
+            margin: auto;
+            border-radius: 10px;
+            width: 700px;
+            padding: 15px;
+            text-align: center;
+            height: 580px;
+        }
+        p {
+            font-size: 40px;
+            display: inline;
+            margin-left: 50px;
+            margin-right: 100px;
+        }
+        button {
+            margin-left: 50px;
+            color: seagreen;
+            font-weight: 800;
+            border: seagreen solid;
+            border-radius: 15px;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <h1>Make your choice!</h1>
+    <button onclick="rock()">ROCK</button><button onclick="paper()">PAPER</button><button onclick="scissors()">SCISSORS</button><br>
+    <p>You:</p><p>The computer:</p><br>
+    <img src="" id="img1"><img src="" id="img2"><br>
+    <p id="vencedor"></p>
+</div>
+
+</body>
+</html>
